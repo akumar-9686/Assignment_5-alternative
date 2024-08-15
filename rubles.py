@@ -13,9 +13,9 @@ while True:
         var_line_2 = var.readline()
         var.close()
 
-        placeh = open('currency.txt', 'w')
-        placeh.write('placeholder')
-        placeh.close()
+        place = open('currency.txt', 'w')
+        place.write('placeholder')
+        place.close()
 
         new_var = float(var_line_2)
 
