@@ -28,7 +28,7 @@ def main():
                 print("This is the help page!")
                 print("\n")
                 print("If you are in need of assistance please contact us at our number 000-000-0000")
-                
+                print('**********************************************************************************************')
 
             if input_value_a == 'stop':
                 break
@@ -40,7 +40,11 @@ def main():
             print("[+]Please enter the currency you would like to convert to!!!")
             print("-For example, conversion to yen can be entered as word form 'yen' or symbol form '¥'")
             print('-Available conversions at the moment:')
-            print('     -> American Dollars to Japanese Yen ($ -> ¥)')
+            print('     -> American Dollars to Japanese Yen ($ -> ¥) type yen or ¥')
+            print('     -> American Dollars to Euros ($ -> €) type euros or €')
+            print('     -> American Dollars to Mexican Pesos ($ -> MX$) type pesos or MX$')
+            print('     -> American Dollars to Indian Rupeees ($ -> ₹) type rupees or ₹')
+            print('     -> American Dollars to Russian Rubles ($ -> ₽) type rubles or ₽')
             print('\n')
             input_value_2 = input(">>Enter response here: ")
 
@@ -89,7 +93,9 @@ def main():
 
         else:
             return
-        
+
+if __name__ == '__main__':
+    main()        
 
 
 
